@@ -1,0 +1,100 @@
+body{
+ font-family: sans-serif;
+ background-color: #C527F3;
+ line-height: 20px;
+ z-index: 99;
+}
+.menuitem{
+  width: 50%;
+  background-color: #9B088F ;
+  border: 2px outset #4B0445;
+  border-radius: 40px ;
+  color:#ffffff;
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  display: inline;
+}
+
+.menuitem:hover{
+  background-color: #EE8EE7;
+  color: #3D0039;
+  font-weight: bold;
+}
+.menuitem a {
+  color: #ffffff;
+  text-decoration: none;
+}
+  .center{
+    text-align: center;
+}
+.container{
+
+  padding-top: 2%;
+  min-width: 900px;
+  z-index: 1;
+  background-color:#77377F;
+  width: 98%;
+  height: 5%;
+  border: 3px inset #4B0445;
+  border-radius: 10px ;
+  position: fixed;
+  }
+.container1{
+  background-color:#F4D5D2;
+  width: auto;
+  height: auto;
+  border: 3px solid #4B0445;
+  border-radius: 10px ;
+}
+.container2{
+  background-color:#D6847C;
+  width: auto;
+  height: auto;
+  border: 3px solid #4B0445;
+  border-radius: 10px ;
+}
+.main {
+  margin-top: 50px;
+}
+.shadow{
+  color: white;
+  text-shadow: 5px 5px 7px black;
+}
+.bio{
+  width: 400px;
+  height: 500px;
+  background-image: url("../images/dg.jpg");
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.emoji{
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/emoji.png");
+  background-size: cover;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cop {
+  color: white;
+  text-shadow: 5px 5px 7px black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+}
+.ctab{
+  margin-left: auto;
+   margin-right: auto;
+}
+.shatb{
+  color: Red;
+    font-weight: bold;
+  text-shadow: 6px 6px 7px black;
+}
